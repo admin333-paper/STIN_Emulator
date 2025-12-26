@@ -1,5 +1,5 @@
-FROM ubuntu_python:latest
-#FROM ubuntu:20.04
+#FROM ubuntu_python:latest
+FROM ubuntu:20.04
 
 LABEL mantainer="HeFan Zhang" description="Source routing"
 # 设置时区
