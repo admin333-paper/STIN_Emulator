@@ -57,6 +57,7 @@ if __name__ == "__main__":
     ground_image_name = config.GroundImageName
     udp_port = config.UDPPort
     monitor_image_name = config.MonitorImageName
+    user_image_name = config.UserImageName
     # ---------------------------------
 
     # create position updater
@@ -68,7 +69,7 @@ if __name__ == "__main__":
 
     # create docker client
     # ----------------------------------------------------------
-    docker_client = DockerClient(image_name, host_ip, ground_image_name)
+    docker_client = DockerClient(image_name, host_ip, ground_image_name, user_image_name)
     # ----------------------------------------------------------
 
     # create monitor
