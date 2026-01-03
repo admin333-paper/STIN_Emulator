@@ -75,7 +75,7 @@ npm install
 
 ### 1.3 启动
 
-启动控制器需要进入控制器文件夹`node-manager`, 执行
+启动控制器需要进入控制器文件夹`node-manager`, 执行（root和user下的环境不一致）
 
 ```bash
 sudo python3 main.py
