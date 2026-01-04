@@ -31,9 +31,10 @@ sudo snap install --classic go1.20
 
 进入container-base目录下, 依次进入
 
-1. `build_ubuntu`
-2. `build_python`
+1. `build-ubuntu`
+2. `build-python`
 3. `satellite_node_docker`
+4. `ground_station_node_docker`
 
 文件夹，执行`./build_dockerfile.sh`脚本
 如果提示`no such file or directory`, 请为其添加可执行权限
@@ -61,7 +62,7 @@ make wrap
 
 ```bash
 
-sudo pip3 install -r requiremnents.txt
+sudo pip3 install -r requirements.txt
 
 ```
 
