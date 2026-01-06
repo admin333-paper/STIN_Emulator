@@ -29,7 +29,7 @@ sudo snap install --classic go1.20
 
 ### 1.1 构建镜像
 
-进入container-base目录下, 依次进入
+进入container-base目录下, 依次进入（build-ubuntu和build-python的创建似乎相互依赖，可能需要修改build-ubuntu的Dockerfile文件，先从Ubuntu20.04开始创建，才能够解决依赖问题）
 
 1. `build-ubuntu`
 2. `build-python`
