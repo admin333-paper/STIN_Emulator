@@ -1,5 +1,6 @@
-#FROM ubuntu_python:latest
-FROM ubuntu:20.04
+# 先创建ubuntu_python:latest容器，该容器才能获取到ubuntu_python:latest，否则需要从ubuntu:20.04开始创建，不过也有可能二则是相互依赖的
+FROM ubuntu_python:latest
+# FROM ubuntu:20.04
 
 LABEL mantainer="HeFan Zhang" description="Source routing"
 # 设置时区
